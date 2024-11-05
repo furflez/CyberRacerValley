@@ -111,3 +111,117 @@
 
 *Cyber Racer Valley* traz um equilíbrio entre ação, estratégia e relacionamento com personagens, proporcionando uma experiência rica e imersiva. A combinação de corridas baseadas em turnos com decisões estratégicas e o crescimento da fama da equipe permite uma progressão dinâmica e personalizada para o jogador.
 
+---
+
+## **Checklist**
+
+## 1. Estrutura Base do Jogo
+- [ ] **Menu Principal**
+  - [ ] Tela de início com opções: Novo Jogo, Continuar, Opções e Sair.
+  - [ ] Interface para seleção de gênero e aparência do protagonista.
+  - [ ] Sistema de salvamento/carregamento de jogo.
+  
+- [ ] **Mapas e Áreas Base**
+  - [ ] Estrutura básica da Academia (central do jogo) com áreas funcionais.
+  - [ ] Implementação de uma cidade inicial para as corridas de teste.
+
+- [ ] **Movimentação do Jogador na Academia**
+  - [ ] Sistema de movimentação em tempo real ou baseado em tiles.
+  - [ ] Sistema de interações com NPCs (menus contextuais, diálogos).
+
+## 2. Mecânica Social e Academia de Corrida
+- [ ] **Personagens Recrutáveis**
+  - [ ] Sistema de spawn básico para NPCs com diferentes especializações.
+  - [ ] Criação de um sistema de recrutamento simples.
+  - [ ] Interações sociais (ex: diálogos curtos).
+
+- [ ] **Progresso do Relacionamento**
+  - [ ] Implementação de um sistema de pontos de amizade.
+  - [ ] Eventos de diálogo variáveis com base no nível de relacionamento.
+
+- [ ] **Eventos da Academia**
+  - [ ] Implementação de eventos simples de treino, festas ou encontros.
+  - [ ] Sistema de calendário básico para eventos fixos.
+
+## 3. Formação e Gestão da Equipe
+- [ ] **Seleção de Equipe**
+  - [ ] Tela ou menu de seleção para escolher membros da equipe.
+  - [ ] Interface básica para atribuir funções e visualizar habilidades.
+
+- [ ] **Progressão dos Membros da Equipe**
+  - [ ] Sistema de experiência simples que aumenta habilidades.
+  - [ ] Interface para verificar e melhorar habilidades dos membros.
+
+- [ ] **Configuração de Funções**
+  - [ ] Implementação de habilidades básicas para cada membro.
+  - [ ] Teste da influência de cada função nas corridas.
+
+## 4. Corridas Baseadas em Turnos
+- [ ] **Sistema de Segmentação das Corridas**
+  - [ ] Divisão da corrida em segmentos.
+  - [ ] Implementação de um sistema de turnos para escolhas do jogador.
+
+- [ ] **Eventos e Decisões Aleatórias**
+  - [ ] Implementação de eventos aleatórios por segmento.
+  - [ ] Adição de alertas da IA sobre chances de sucesso.
+
+- [ ] **Sistema de Pontuação e Condição do Veículo**
+  - [ ] Sistema básico de desgaste de pneus, combustível e temperatura.
+  - [ ] Indicadores visuais para acompanhar condições do veículo.
+
+## 5. IA do Carro
+- [ ] **Personalidade da IA**
+  - [ ] Criação de diálogos e respostas pré-definidas.
+  - [ ] Interface de diálogos durante a corrida.
+
+- [ ] **Análise e Probabilidade de Sucesso**
+  - [ ] Implementação inicial de um sistema de probabilidade.
+  - [ ] Interface de alerta da IA com percentuais de sucesso.
+
+- [ ] **Upgrades e Aprimoramentos da IA**
+  - [ ] Sistema simples para evoluir a IA.
+  - [ ] Melhoria na precisão das previsões.
+
+## 6. Sistema de Fama e Mídia
+- [ ] **Medidor de Fama**
+  - [ ] Barra de fama que aumenta com vitórias e eventos.
+  - [ ] Sistema de requisitos de fama para desbloqueio de membros.
+
+- [ ] **Personagem de Relações Públicas**
+  - [ ] NPC responsável pela mídia.
+  - [ ] Evento simples de mídia para aumentar a fama.
+
+- [ ] **Eventos de Mídia**
+  - [ ] Eventos periódicos que aparecem em datas específicas.
+  - [ ] Escolhas do jogador em participar de eventos.
+
+## 7. Sistema de Ranking e Progressão
+- [ ] **Ranking do Piloto e da Equipe**
+  - [ ] Sistema de ranking básico que atualiza com vitórias/derrotas.
+  - [ ] Interface para visualizar posição na tabela de líderes.
+
+- [ ] **Benefícios e Requisitos de Ranking**
+  - [ ] Requisitos de ranking para desbloquear novas peças.
+  - [ ] Teste de corridas de maior dificuldade.
+
+- [ ] **Tabela de Liderança e Rivais**
+  - [ ] Sistema básico de rivais para motivar o jogador.
+  - [ ] Tabela onde o jogador vê sua posição e dos rivais.
+
+## 8. Progressão e Desenvolvimento do Veículo
+- [ ] **Personalização do Veículo**
+  - [ ] Interface inicial para trocar peças e equipamentos.
+  - [ ] Sistema de peças com benefícios simples.
+
+- [ ] **Aprimoramento de Habilidades do Jogador e Veículo**
+  - [ ] Implementação de habilidades especiais para o piloto.
+  - [ ] Interface para visualizar e melhorar essas habilidades.
+
+## 9. Interface e Feedback do Jogador
+- [ ] **HUD da Corrida**
+  - [ ] Indicadores de condição do carro.
+  - [ ] Notificações de eventos e interações com a IA.
+
+- [ ] **Menus de Progressão e Estatísticas**
+  - [ ] Menus para visualizar status da equipe, fama e ranking.
+  - [ ] Interface de resumo após cada corrida.
